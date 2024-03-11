@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid #242525;
+    box-shadow: -4px -4px 10px rgb(216, 255, 255),
+        5px 5px 10px rgb(0, 247, 252);
+}
+
+.point {
+    width: 15px;
+    height: 15px;
+    background-color: #00818a;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.hours {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    display: inline;
+}
+
+.hour-1 {
+    position: relative;
+    top: 17px;
+    left: 250px;
+
+}
+
+.hour-2 {
+    position: relative;
+    top: 80px;
+    left: 285px;
+}
+
+
+.hour-3 {
+    position: relative;
+    top: 151px;
+    left: 289px;
+}
+
+.hour-4 {
+    position: relative;
+    top: 220px;
+    left: 257px;
+
+}
+.hour-5 {
+    position: relative;
+    top: 279px;
+    left: 183px;
+}
+.hour-6 {
+    position: relative;
+    top: 301px;
+    left: 84px;
+}
+.hour-7 {
+    position: relative;
+    top: 279px;
+    left: -15px;
+}
+.hour-8 {
+    position: relative;
+    top: 220px;
+    right: 80px;
+}
+.hour-9 {
+    position: relative;
+    top: 151px;
+    right: 115px;
+}
+.hour-10 {
+    position: relative;
+    top: 80px;
+    right: 115px;
+}
+.hour-11{
+    position: relative;
+    top: 17px;
+    right: 100px;
+}
+.hour-12{
+    position: relative;
+    bottom: 8px;
+    right: 50px;
+}
+.hour,.minute,.second{
+    border-radius: 20px;
+    transform-origin: bottom;
+
+}
+.hour{
+    height: 95px;
+    width: 10px;
+    background:white;
+    position: relative;
+    top: 12.5%;
+    left: 47.8%;
+}
+
+.minute{
+    height: 130px;
+    width: 7px;
+    background:white;
+    position: relative;
+   bottom: 25%;
+    left: 47.8%;
+}
+.second{
+    height: 150px;
+    width: 4px;
+    background:white;
+    position: relative;
+   bottom: 68%;
+    left: 48%;
+
+}
+
